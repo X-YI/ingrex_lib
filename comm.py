@@ -39,7 +39,7 @@ def main():
     with open('cookies') as cookies:
         cookies = cookies.read().strip()
 
-    mints = 1519708353697
+    mints = -1
 
     while True:
         intel = ingrex.Intel(cookies, field)
